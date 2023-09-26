@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () => {
 	return (
 		<div className="flex justify-between w-[1200px]">
-			<div className="text-white">
+			<div>
 				<h1 className="text-[32px] font-bold">jaredbrown</h1>
 			</div>
 			<div className="flex justify-between h-[25px] w-[140px]">
