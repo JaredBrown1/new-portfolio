@@ -1,10 +1,11 @@
 import Navbar from "./navbar/Navbar";
+import Image from "next/image";
 
 const Hero = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="flex mt-[-84px]">
+			<div className="flex mt-[-54px] pb-20">
 				<div>
 					<div className="w-[800px] pt-[127px]">
 						<h1 className="text-[88px] font-bold h-24">Nice to meet you!</h1>
@@ -25,7 +26,14 @@ const Hero = () => {
 						</p>
 					</div>
 				</div>
-				<div className="h-[720px] w-[445px] border-2"></div>
+				<div className="h-[612px] w-[445px] pt-[70px]">
+					<Image
+						src="/images/profile.jpg"
+						width={445}
+						height={720}
+						alt="profile"
+					/>
+				</div>
 			</div>
 		</div>
 	);
