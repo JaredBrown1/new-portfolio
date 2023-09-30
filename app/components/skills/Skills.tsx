@@ -1,6 +1,6 @@
 const Skills = () => {
 	return (
-		<div className="w-[1250px] pt-20 mt-20 text-left border-t border-gray-300">
+		<div className="w-[1200px] pt-20 mt-20 text-left border-t border-gray-300">
 			<div className="flex justify-between">
 				<div className="w-[300px]">
 					<h1 className="text-[48px] font-bold">HTML</h1>

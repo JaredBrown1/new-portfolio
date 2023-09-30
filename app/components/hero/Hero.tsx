@@ -25,9 +25,7 @@ const Hero = () => {
 						</p>
 					</div>
 				</div>
-				<div className="h-[720px] w-[445px] border-2 text-center">
-					Profile image here
-				</div>
+				<div className="h-[720px] w-[445px] border-2"></div>
 			</div>
 		</div>
 	);
