@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<div
 			id="contact"
-			className="flex flex-col justify-around mt-[139px] pt-[84px] h-[675px] w-[1110px] border-t border-white"
+			className="flex flex-col justify-around mt-[139px] pt-[84px] h-[675px] w-[1200px] border-t border-white"
 		>
 			<div className="flex justify-between pb-20">
 				<div>
