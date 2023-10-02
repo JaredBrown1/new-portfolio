@@ -1,11 +1,18 @@
+"use client";
+
 import Navbar from "./navbar/Navbar";
 import Image from "next/image";
 
 const Hero = () => {
+	const handleClick = () => {
+		const contactSection: any = document.getElementById("contact");
+		contactSection.scrollIntoView({ behavior: "smooth" });
+	};
+
 	return (
 		<div>
 			<Navbar />
-			<div className="flex mt-[-54px] pb-20">
+			<div className="flex pb-20">
 				<div>
 					<div className="w-[800px] pt-[127px]">
 						<h1 className="text-[88px] font-bold h-24">Nice to meet you!</h1>
@@ -21,9 +28,12 @@ const Hero = () => {
 							<br />
 							passionate about building accessible apps that users can love.
 						</p>
-						<p className="pt-[66px] w-[117px] border-b-2 border-b-[#4EE1A0] font-bold tracking-widest text-center">
+						<button
+							onClick={handleClick}
+							className="pt-[66px] w-[117px] border-b-2 border-b-[#4EE1A0] font-bold tracking-widest text-center hover:text-[#4EE1A0]"
+						>
 							CONTACT ME
-						</p>
+						</button>
 					</div>
 				</div>
 				<div className="h-[612px] w-[445px] pt-[70px]">

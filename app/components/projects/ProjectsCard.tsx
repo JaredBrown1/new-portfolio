@@ -1,17 +1,17 @@
 import Image from "next/image";
 
-const ProjectsCard = () => {
+const ProjectsCard = (props: {
+	src: string;
+	alt: string;
+	title: string;
+	skills: string;
+}) => {
 	return (
 		<div className="pt-[69px]">
-			<Image
-				src="/images/airbnb_clone.png"
-				width={545}
-				height={400}
-				alt="airbnb screenshot"
-			/>
+			<Image src={props.src} width={545} height={350} alt={props.alt} />
 			<div className="pt-[20px]">
-				<h1 className="text-[24px] font-bold">Airbnb Clone</h1>
-				<p>HTML - CSS</p>
+				<h1 className="text-[24px] font-bold">{props.title}</h1>
+				<p>{props.skills}</p>
 			</div>
 		</div>
 	);
