@@ -10,7 +10,7 @@ const Projects = () => {
 
 	return (
 		<div className="pt-[140px]">
-			<div className="flex justify-between w-[1200px]">
+			<div className="lg:flex lg:justify-between lg:w-[1200px]">
 				<h1 className="text-[88px] font-bold">Projects</h1>
 				<button
 					onClick={handleClick}

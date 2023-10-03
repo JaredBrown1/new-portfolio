@@ -4,9 +4,9 @@ const Footer = () => {
 	return (
 		<div
 			id="contact"
-			className="flex flex-col justify-around mt-[139px] pt-[84px] h-[675px] w-[1200px] border-t border-white"
+			className=" lg:flex lg:flex-col lg:justify-around lg:mt-[139px] lg:pt-[84px] lg:h-[675px] lg:w-[1200px] border-t border-white"
 		>
-			<div className="flex justify-between pb-20">
+			<div className="lg:flex lg:justify-between lg:pb-20">
 				<div>
 					<h1 className="text-[88px] font-bold">Contact</h1>
 					<p>
@@ -16,7 +16,7 @@ const Footer = () => {
 					</p>
 				</div>
 
-				<form className="flex flex-col w-[445px]">
+				<form className="flex flex-col lg:w-[445px]">
 					<input
 						className="bg-black h-[43px] border-b-[1px] pl-4"
 						type="text"
@@ -31,7 +31,7 @@ const Footer = () => {
 						className="bg-black h-[107px] border-b-[1px] pl-4 mt-6 resize-none"
 						placeholder="Message"
 					></textarea>
-					<button className="border-b-[#4EE1A0] hover:text-[#4EE1A0] border-b-2 w-[120px] text-[16px] font-bold pt-8 ml-[320px]">
+					<button className="border-b-[#4EE1A0] hover:text-[#4EE1A0] border-b-2 w-[120px] text-[16px] font-bold pt-8 lg:ml-[320px]">
 						SEND MESSAGE
 					</button>
 				</form>

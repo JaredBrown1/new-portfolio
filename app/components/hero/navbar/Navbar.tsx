@@ -7,12 +7,12 @@ const Twitter = "/icon-twitter.svg";
 
 const Navbar = () => {
 	return (
-		<div className="flex justify-between w-[1110px]">
+		<div className="flex flex-col text-center items-center lg:flex lg:justify-between lg:w-[1110px]">
 			<div>
 				<h1 className="text-[32px] font-bold">jaredbrown</h1>
 			</div>
 
-			<div className="flex justify-between h-[25px] w-[140px]">
+			<div className="flex justify-between h-[25px] w-[140px] pt-[20px] lg:pt-[0px]">
 				<Link href="https://github.com/JaredBrown1">
 					<Image src={Github} width={25} height={25} alt="github logo" />
 				</Link>
