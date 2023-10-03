@@ -36,7 +36,7 @@ const Footer = () => {
 				</form>
 			</div>
 
-			<div>
+			<div className="border-t-2 mt-[87px] pt-[39px] pb-[60px] lg:border-t-0 lg:mt-0 lg:pt-0">
 				<Navbar />
 			</div>
 		</div>
