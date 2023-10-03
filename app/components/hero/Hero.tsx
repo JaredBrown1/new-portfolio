@@ -12,9 +12,9 @@ const Hero = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="flex flex-col-reverse items-center text-center pt-12 lg:pt-0 lg:pb-20">
+			<div className="flex flex-col-reverse items-center text-center pt-12 lg:flex-row lg:pt-0 lg:pb-20">
 				<div>
-					<div className="pt-[40px] lg:w-[800px] lg:pt-[127px]">
+					<div className="pt-[40px] lg:text-start lg:w-[800px] lg:pt-[127px]">
 						<h1 className="text-[40px] lg:text-[88px] font-bold lg:h-24 leading-6 lg:leading-10">
 							Nice to meet you!
 						</h1>
@@ -25,7 +25,7 @@ const Hero = () => {
 							</span>
 							.
 						</h1>
-						<p className="text-[16px] pt-[24px] lg:text-[18px] lg:pt-[37px]">
+						<p className="text-[16px] pt-[24px] lg:w-[445px] lg:text-[18px] lg:pt-[37px]">
 							Based in Southern California, I&apos;m a full stack developer
 							passionate about building accessible apps that users can love.
 						</p>
@@ -40,9 +40,10 @@ const Hero = () => {
 				<div className="lg:h-[612px] lg:w-[445px] lg:pt-[70px]">
 					<Image
 						src="/images/profile.jpg"
-						width={174}
-						height={720}
+						width={200}
+						height={0}
 						alt="profile"
+						className="h-[242px] w-[174px] lg:h-[612px] lg:w-[445px]"
 					/>
 				</div>
 			</div>

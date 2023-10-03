@@ -6,10 +6,10 @@ const Footer = () => {
 			id="contact"
 			className="pt-[80px] lg:flex lg:flex-col lg:justify-around lg:mt-[139px] lg:pt-[84px] lg:h-[675px] lg:w-[1200px] lg:border-t border-white"
 		>
-			<div className="text-center lg:flex lg:justify-between lg:pb-20">
+			<div className="text-center lg:text-start lg:flex lg:justify-between lg:pb-20">
 				<div>
 					<h1 className="text-[40px] lg:text-[88px] font-bold">Contact</h1>
-					<p>
+					<p className="lg:w-[445px]">
 						I would love to hear about your project and how I could help. Please
 						fill in the form, and I’ll get back to you as soon as possible.
 					</p>
