@@ -31,7 +31,7 @@ const Hero = () => {
 						</p>
 						<button
 							onClick={handleClick}
-							className="pt-[66px] w-[117px] border-b-2 border-b-[#4EE1A0] font-bold tracking-widest text-center hover:text-[#4EE1A0]"
+							className="pt-[24px] w-[117px] border-b-2 border-b-[#4EE1A0] font-bold tracking-widest text-center hover:text-[#4EE1A0] lg:pt-[66px]"
 						>
 							CONTACT ME
 						</button>
