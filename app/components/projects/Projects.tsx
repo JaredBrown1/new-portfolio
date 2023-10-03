@@ -9,17 +9,17 @@ const Projects = () => {
 	};
 
 	return (
-		<div className="pt-[140px]">
-			<div className="lg:flex lg:justify-between lg:w-[1200px]">
-				<h1 className="text-[88px] font-bold">Projects</h1>
+		<div className="pt-[80px] lg:pt-[140px]">
+			<div className="flex justify-between lg:w-[1200px]">
+				<h1 className="font-bold text-[40px] lg:text-[88px]">Projects</h1>
 				<button
 					onClick={handleClick}
-					className="mt-8 pt-3 w-[117px] h-[38px] border-b-2 border-b-[#4EE1A0] font-bold tracking-widest text-center hover:text-[#4EE1A0]"
+					className="mt-2 pt-3 w-[117px] h-[38px] border-b-2 border-b-[#4EE1A0] font-bold tracking-widest text-center hover:text-[#4EE1A0] lg:mt-8"
 				>
 					CONTACT ME
 				</button>
 			</div>
-			<div className="pt-10 flex flex-wrap justify-between col-md-6">
+			<div className="flex flex-wrap justify-between col-md-6 lg:pt-10">
 				<ProjectsCard
 					src="/images/airbnb.png"
 					alt="airbnb clone"
